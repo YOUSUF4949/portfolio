@@ -1,0 +1,902 @@
+/* style css */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+/* google font */
+/* font-family: 'Abril Fatface', cursive;
+font-family: 'Fira Sans', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Satisfy', cursive; */
+/* background-color:#0c6168; */
+/* google font  */
+}
+
+.navbar{
+    background-color:#0c6168;
+    padding:4% 7%;
+    color:white;
+    text-align:center;
+}
+.navbar::after{
+    content:'';
+    clear:both;
+    display:table;
+}
+[class*="col-"]{
+    float:left;
+}
+[class*="col-"]{
+    width:100%;
+    /* border:1px solid white;  */
+}
+.nav-logo img{
+    width:100px;
+    height:100PX;
+}
+.nav-title{
+    font-size:20px;
+    padding:15px 0px;
+}
+.nav-menu ul li{
+    list-style-type:none;
+    padding:10px 0px;
+    background-color:#08a0ae;
+    margin-top:8px;
+    border-radius:15px;
+}
+.nav-menu ul li:hover{
+    background-color:rgba(236, 240, 241, .36);
+}
+.nav-menu ul li a{
+    text-decoration:none;
+    color:white;
+    font-size:20px;
+}
+/* header end from here */
+/* main body start from here */
+.section1{
+    width:100%;
+    height:80vh;
+    background:black;
+    padding:100px 10px;
+    position:relative;
+    text-align:center;
+    color:white;
+    
+}
+.overly-image{
+    position:absolute;
+    background-size:cover;
+    background-position:center;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    opacity:0.3;
+    background-attachment: fixed;
+}
+
+.top-weather-icon{
+    position:absolute;
+    top:30px;
+    right:20px;
+}
+.body-content{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    border:none;
+    width:300px;
+   
+}
+.body-content h2{
+    font-size:25px;
+    font-family: 'Satisfy', cursive;
+}
+
+.body-content p{
+    margin-top:20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:bold;
+
+}
+.bottom-weather-icon{
+    position:absolute;
+    left:20px;
+    bottom:10px;
+
+}
+.weather img{
+    width:200px;
+    height:200px;
+    transition:1s;
+}
+
+.weather img:hover{
+    transform:rotate(360deg);
+}
+/* main body ends from here */
+/* section2 from start from here */
+.sec-container{
+   background-color:#1C315E;
+}
+.section2{
+    padding:4% 5%;
+}
+
+.section2 h2{
+    font-size:30px;
+    padding-top:10px;
+    padding-bottom:0px;
+    text-shadow:-1px 0px 3px  tomato, 0px -1px 3px  tomato, 1px 0px 3px  tomato, 0px 1px 3px tomato;
+}
+.section2 h3{
+    color:black;
+    font-weight:bold;
+    padding-bottom:20px;
+
+}
+.section2 p{
+    font-size:20px;
+    text-align:start;
+    text-transform:capitalize;
+    text-align:justify;
+    color:#000;
+    font-weight:bold;
+    letter-spacing:1px;
+    margin-top:10px;
+}
+
+/* section2 from end from here */
+@media screen and (max-width:425px){
+    .sec-container .section2 {
+        height:450px;
+        overflow:scroll;
+
+    }
+    .sec-container{
+        padding:20px 0px;
+    }
+}
+/* about me section starts from  here */
+.section3{
+    background-color:yellowgreen;
+    height:900px;
+    padding:4% 5%;
+    /* font-family: 'Montserrat', sans-serif; */
+}
+.aboutme-content{
+    text-align:center;
+    
+}
+.section3 .content-title{
+    padding:20px;
+    
+}
+.control-aboutbody{
+    padding:30px 0px;
+}
+
+.hr-dotted{
+    border:6px dotted #333;
+    border-bottom:none;
+    width:150px;
+    margin:0 auto ;
+    padding-top:5px;
+    margin-top:5px;
+}
+
+.left-image img{
+    width:220px;
+    height:200px;
+    border:5px solid black;
+    margin:0 auto;
+    border-radius:50%;
+}
+.right-area p{
+    font-size:18px;
+    text-align:justify;
+    color:#333;
+    font-weight:bold;
+}
+.right-area p:nth-child(1){
+    margin-top:15px;
+}
+.my-address p{
+    text-align:center;
+    padding:15px 0px;
+}
+.my-address p:nth-child(1){
+    margin-top:0;
+}
+
+button{
+    text-align:center;
+    margin-top:15px;
+    font-size:18px;
+    font-weight:bold;
+    padding:5px 10px;
+    border-radius:15px;
+    border:none;
+    background:black;
+    color:white;
+    transition:1s;
+}
+
+button:hover{
+    background-color:white;
+    color:black;
+}
+
+/* about me section ends  from here */
+/* card design starts from here */
+.controls-card{
+    background-color:#88A47C;
+    
+}
+.controls-card::after{
+    content:'';
+    display:table;
+    clear:both;
+}
+.controls-card{
+    padding:2% 2%;
+}
+
+.card{
+    background-color:gray;
+    padding:1% 2%;
+    margin:0px 10px;
+    border-radius:5px;
+    margin-top:10px;
+}
+
+.card-icon{
+    text-align:center;
+    padding:20px 0px;
+}
+
+.card-icon i{
+    font-size:35px;
+    border:3px solid white;
+    border-radius:50%;
+    padding:10px;
+}
+
+.card-title{
+    text-align:center;
+    background-color:#333;
+    padding:3px 0px;
+    color:white;
+}
+.card-body{
+    padding:6% 10%;
+}
+.card-3 .card-body {
+    padding:1% 7%; 
+}
+.card-body hr{
+    margin-top:7px;
+    margin-bottom:7px;
+    border-bottom:rgb(171, 165, 165);
+}
+.card-body ol li p{
+    text-align:justify;
+}
+
+/* card 3 design starts from here */
+.skills-container{
+    /* margin-right:30px; */
+}
+
+.skills-container ol li{
+    list-style:none;
+    font-weight:bold;
+    font-size:20px;
+    margin:34px 10px;
+    position:relative;
+}
+
+.skills-container ol li::before{
+    content:'';
+    width:100%;
+    height:10px;
+    background-color:rgba(86, 86, 153,.5);
+    position:absolute;
+    margin-top:35px;
+    border-radius:25px;
+}
+/* skills html items design  */
+.skills-container ol .html::after{
+    content:'';
+    width:0%;
+    height:10px;
+    background-color:yellowgreen;
+    position:absolute;
+    margin-top:35px;
+    left:0;
+    border-radius:25px;
+    transition:3s;
+
+    animation-name:skills;
+    animation-duration:6s;
+    animation-delay:1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes skills {
+    to{
+        width:90%;
+    }
+}
+/* skills css3 items design  */
+.skills-container ol .css::after{
+    content:'';
+    width:0%;
+    height:10px;
+    background-color:tomato;
+    position:absolute;
+    margin-top:35px;
+    left:0px;
+    border-radius:25px;
+
+    animation-name:css;
+    animation-duration:6s;
+    animation-delay:2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes css{
+    to{
+        width:80%;
+    }
+    
+}
+/* skills bootstrap items design  */
+.skills-container ol .bootstrap::after{
+    content:'';
+    width:0%;
+    height:10px;
+    background-color:#333;
+    position:absolute;
+    top:35px;
+    left:0px;
+    border-radius:25px;
+
+    animation-name:bootstrap;
+    animation-delay:3s;
+    animation-duration:6s;
+    animation-iteration-count:infinite;
+}
+
+
+@keyframes bootstrap{
+    to{
+        width:95%;
+    }
+}
+/* skills javascript items design  */
+.skills-container ol .javascript::after{
+    content:'';
+    width:0%;
+    height:10px;
+    background-color:blue;
+    position:absolute;
+    margin-top:35px;
+    left:0px;
+    border-radius:25px;
+
+    animation-name:javascript;
+    animation-duration:6s;
+    animation-delay:2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes javascript{
+    to{
+        width:60%;
+    }
+    
+}
+/* skills jquery items design  */
+.skills-container ol .jquery::after{
+    content:'';
+    width:0%;
+    height:10px;
+    background-color:orangered;
+    position:absolute;
+    margin-top:35px;
+    left:0px;
+    border-radius:25px;
+
+    animation-name:jquery;
+    animation-duration:6s;
+    animation-delay:0.10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes jquery{
+    to{
+        width:70%;
+    }
+    
+}
+/* skills react.jv items design  */
+.skills-container ol .react::after{
+    content:'';
+    width:0%;
+    height:10px;
+    background-color:black;
+    position:absolute;
+    margin-top:35px;
+    left:0px;
+    border-radius:25px;
+
+    animation-name:react;
+    animation-duration:6s;
+    animation-delay:5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes react{
+    to{
+        width:80%;
+    }
+    
+}
+/* skills  items design  */
+.skills-container ol .github::after{
+    content:'';
+    width:0%;
+    height:10px;
+    background-color:aqua;
+    position:absolute;
+    margin-top:35px;
+    left:0px;
+    border-radius:25px;
+
+    animation-name:github;
+    animation-duration:6s;
+    animation-delay:3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes github{
+    to{
+        width:90%;
+    }
+    
+}
+/* skills react.jv items design  */
+.skills-container ol .nodeJS::after{
+    content:'';
+    width:0%;
+    height:10px;
+    background-color:tomato;
+    position:absolute;
+    margin-top:35px;
+    left:0px;
+    border-radius:25px;
+
+    animation-name:nodeJS;
+    animation-duration:6s;
+    animation-delay:4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes nodeJS{
+    to{
+        width:95%;
+    } 
+}
+
+.section4::after{
+    content:'';
+    display:table;
+    clear:both;
+}
+/* card 3 design ends from here */
+/* card design ends from here */ 
+
+/* contact me design starts from here */
+.contact-container{
+    background-color:dodgerblue;
+    margin-top:20px;
+    padding:4% 7%;
+   
+}
+.contact-container::after{
+    display:table;
+    clear:both;
+    content:'';
+}
+
+/* achivements design start here  */
+.contact-container .achiv-content{
+    padding:10px 10px;
+    color:white;
+    text-align:justify;
+}
+.contact-container hr{
+    width:80px;
+    margin:0 auto;
+    margin-top:7px;
+    border:5px dotted white;
+    border-top:none;
+}
+
+.contact-container .achiv-title h2{
+    text-align:center;
+    color:white;
+}
+.achiv-content p{
+    margin-top:15px;
+    font-weight:bold;
+    font-size:18px;
+    text-transform:capitalize;
+}
+/* achivements design start here  */
+.contactMe{
+    margin:0px;
+}
+.contactMe .contactme-title h2{
+    text-align:center;
+    color:white;
+}
+.contact-form{
+    margin-top:15px;
+}
+.contactMe .contact-form form{
+    width:100%;
+}
+.contactMe .contact-form form input{
+    padding:10px 5px;
+}
+.contactMe .contact-form form input,
+.contactMe .contact-form form textarea{
+    width:100%;
+    font-weight:bold;
+    font-size:18px;
+    margin-top:8px;
+    border-radius:5px;
+    border:1px solid gray;
+}
+.contactMe .contact-form form textarea{
+    padding:5px;
+}
+.contact-form .contact-btn{
+    text-align:center;
+    margin-top:0px;
+}
+.contact-form .contact-btn input{
+    width:100px !important;
+    background-color:white;
+    color:black;
+    border:1px solid gray;
+    border-radius:10px !important;
+    transition:1s;
+}
+.contact-form .contact-btn input:hover{
+    background-color:black;
+    color:white;
+}
+/* contact me design ends from here */
+/* social icons design starts from here */
+.social-title h2{
+    text-align:center;
+    color:white;
+    font-size:25px;
+    text-transform:uppercase;
+}
+.social-contact .social-icons button{
+    padding:0;
+    margin:0;
+}
+
+.social-icons{
+    /* display:grid;
+    grid-template-columns:auto auto auto;
+    grid-gap: -20px; */
+    text-align:center;
+    position:relative;
+}
+.social-icons .box{
+    width:70px;
+    height:70px;
+    border:1px solid gray;
+    margin:3px 10px;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    float:left;
+    background:linear-gradient(white 50% ,red 50%);
+    background-size:100% 200%;
+    background-position:100% 5%;
+    transition:1s;
+}
+
+/* Responsive for mobile */
+@media screen and (max-width:425px){
+    .social-icons .box{
+        width:50px;
+        height:50px;
+    }
+
+    .section5 .achivements{
+        margin-top:10px;
+        margin-bottom:60px;
+    }
+    .contactMe{
+        margin-bottom:60px;
+    }
+    /* section3 start from here */
+    .section3 .control-aboutbody img{
+        width:150px;
+        height:150px;
+    }
+    /* footer copy right */
+    .foot-container{
+        padding:3rem 2rem !important;
+
+    }
+    .foot-container .left-site{
+        text-align:center;
+        font-size:15px;
+    }
+   .foot-container .right-site{
+    text-align:center;
+   }
+.foot-container .col-3{
+    margin-top:40px;
+}
+.copy-right{
+    text-align:center !important;
+}
+.section1 .controls-all .top-weather-icon img,
+ .section1 .controls-all .bottom-weather-icon img{
+    width:100px;
+    height:100px;
+ }
+    
+}
+/* icons 1 design starts from here */
+.social-icons .top-icons .box:nth-child(1){
+    background:linear-gradient(white 50%, red 50%);
+    background-size:100% 200%;
+    background-position:100% 5%;
+    color:red;
+}
+.social-icons .top-icons .box:nth-child(1):hover{
+    background-size:100% 200%;
+    background-position:100% 100%;
+}
+.social-icons .top-icons .box:nth-child(1) i{
+    color:red;
+}
+.social-icons .top-icons .box:nth-child(1):hover i{
+    color:white;
+}
+/* icons 2 facebook design starts from here */
+.social-icons .top-icons .box:nth-child(2){
+    background:linear-gradient(white 50%, #3b5998 50%);
+    background-size:100% 200%;
+    background-position:100% 5%;
+}
+
+.social-icons .top-icons .box:nth-child(2):hover{
+    background-size:100% 200%;
+    background-position: 100% 100%;
+}
+.social-icons .top-icons .box:nth-child(2) i{
+    color:#3b5998;
+}
+.social-icons .top-icons .box:nth-child(2):hover i{
+    color:white;
+}
+/* icons 3 twitter design starts from here */
+.social-icons .top-icons .box:nth-child(3){
+    background:linear-gradient(white 50%, #00acee 50%);
+    background-size:100% 200%;
+    background-position:100% 5%;
+
+}
+.social-icons .top-icons .box:nth-child(3):hover{
+    background-size:100% 200%;
+    background-position:100% 100%;
+}
+
+.social-icons .top-icons .box:nth-child(3) i{
+    color:#00acee;
+}
+.social-icons .top-icons .box:nth-child(3):hover i{
+    color:white;
+}
+/* icons 4 instagram design starts from here */
+.social-icons .bottom-icons .icons-box-4{
+    background:linear-gradient(white 50%, #8a3ab9 50%);
+    background-size:100% 200%;
+    background-position:100% 5%;
+}
+.social-icons .bottom-icons .icons-box-4:hover{
+    background-size:100% 200%;
+    background-position:100% 100%;
+}
+.social-icons .bottom-icons .icons-box-4 i{
+    color:#8a3ab9;
+}
+.social-icons .bottom-icons .icons-box-4:hover i{
+    color:white;
+}
+/* icons 5 linkid design starts from here */
+.social-icons .bottom-icons .icons-box-5{
+    background:linear-gradient(white 50%, #0072b1 50%);
+    background-size:100% 200%;
+    background-position:100% 5%;
+}
+.social-icons .bottom-icons .icons-box-5:hover{
+    background-size:100% 200%;
+    background-position:100% 100%;
+}
+.social-icons .bottom-icons .icons-box-5 i{
+    color:#0072b1;
+}
+.social-icons .bottom-icons .icons-box-5:hover i{
+    color:white;
+}
+/* icons 6 skype design starts from here */
+.social-icons .bottom-icons .icons-box-6{
+    background:linear-gradient(white 50%, #00aff0 50%);
+    background-size:100% 200%;
+    background-position:100% 5%; 
+}
+.social-icons .bottom-icons .icons-box-6:hover{
+    background-size:100% 200%;
+    background-position:100% 100%;
+}
+.social-icons .bottom-icons .icons-box-6 i{
+    color:#0072b1;
+}
+.social-icons .bottom-icons .icons-box-6:hover i{
+    color:white;
+}
+
+.social-icons{
+    margin-top:25px;
+    padding:0px 20px;
+    display:grid;
+     align-items:center;
+    justify-content:center;
+    grid-gap:10px ;
+} 
+
+.social-icons .box i{
+    font-size:30px;
+}
+
+.section5::after{
+    content:'';
+    display:table;
+    clear:both;
+}
+
+/* social icons design ends from here */
+/* footer design start from here */
+.foot-container{
+    background-color:black;
+    color:gray;
+    padding:4% 5%;
+}
+.foot-container::after{
+    content:'';
+    display:block;
+    clear:both;
+}
+ /* my country flog design starts frome here */
+ .foot-item1 .flug .box1{
+    width:200px;
+    height:100px;
+    background-color:darkgreen;
+    border-radius:5px;
+    margin-top:10px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+ }
+
+ .foot-item1 .flug .box1 > .box2-child-box{
+    width:60px;
+    height:60px;
+    background-color:red;
+    border-radius:50%;
+    color:black;
+    font-weight:bold;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+ }
+/* foot-item2 design starts from here */
+.foot-container h1{
+    padding-bottom:5px;
+}
+.foot-item2 .about-foot ul li{
+    list-style-type:none;
+}
+
+.foot-item2 .about-foot ul li a{
+    text-decoration:none;
+    font-size:20px;
+    color:gray;
+   
+}
+.foot-item2 .about-foot ul li:hover a{
+    color:tomato;
+    text-decoration:underline;
+}
+/* foot-item3 design starts from here */
+.foot-item3 ul li{
+    list-style: none;
+}
+.foot-item3 ul li a{
+    text-decoration:none;
+    color:gray;
+    font-size:20px;
+}
+.foot-item3 ul li:hover a{
+    color:tomato;
+    text-decoration:underline;
+}
+/* foot-item3 design starts from here */
+.foot-item4 ul li{
+    list-style-type:none; 
+}
+.foot-item4 .contact-waye i{
+    width:40px;
+    height:40px;
+    background-color:white;
+    padding:10px;
+    border-radius:50%;
+    font-size:20px;
+    margin-top:8px;
+    color:black;
+}
+.foot-item4 .contact-waye i:hover{
+    transform:scale(1.2);
+}
+
+.foot-item4 .contact-waye p{
+    margin-top:13px;
+    margin-left:10px;
+    font-weight:bold;
+    font-size:18px;
+}
+
+.coll{
+    display:flex;
+}
+.whatsapp{
+    display:flex;
+}
+.email{
+    display:flex;
+}
+.copy-right p{
+    margin-top:25px !important;
+    font-weight:bold;
+}
+.foot-container .copy-right{
+    text-align:end;
+}
+.foot-container::after{
+    display:table;
+    clear:both;
+    content:'';
+}
+/* footer design ends from here */
+/* this protfulio website design ends from here alhamdulillah */

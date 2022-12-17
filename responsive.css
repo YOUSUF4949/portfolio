@@ -1,0 +1,163 @@
+/* desktop style css */
+/* media screen 992px */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+/* all columns size here */
+
+.navbar{
+    padding:1% 7%;
+}
+.nav-logo {
+    text-align:start;
+}
+.nav-title{
+    text-align:end;
+}
+.nav-menu{
+    display:flex;
+    align-items: center;
+    justify-content:end;
+    margin-top:15px;
+}
+
+.nav-menu ul li{
+    display:inline-flex;
+    background:none;
+    padding:5px 20px;
+
+
+}
+.nav-menu ul li a{
+    font-size:25px;
+}
+/* header end from here */
+
+
+/* main body start from here */
+.top-weather-icon{
+    position:absolute;
+    top:50px;
+    right:70px;
+}
+
+.body-content{
+    width:600px;
+}
+
+.body-content h2{
+    font-size:50px;
+}
+
+.body-content p{
+    font-size:22px;
+}
+
+.bottom-weather-icon{
+    position:absolute;
+    left:70px;
+    bottom:30px;
+}
+/* main body ends from here */
+/* section2 from start from here */
+.section3{
+    height:700px;
+}
+.section2 h2{
+    font-size:50px;
+}
+.contact-title h2{
+    font-size:30px;
+}
+.right-area{
+    text-align:left;
+}
+
+.right-area hr{
+    border-bottom:1px solid white;
+    border-top:none;
+    
+}
+
+.aboutme-content p{
+    font-size:20px;
+    font-weight:bold;
+}
+.left-area >.left-image{
+    margin-top:15%;
+
+}
+
+.left-area > .left-image img{
+    width:300px;
+    height:250px;
+    
+}
+
+.my-address p{
+    text-align:left;
+    margin-left:20px;
+}
+
+button{
+    padding:7px 13px;
+    margin-left:20px;
+}
+/* section2 from end from here */
+/* card design starts from here */ 
+.controls-card{
+    padding:2% 7%;
+}
+.section4 .card:hover{
+    box-shadow: 10px 10px 10px #333;
+}
+.card{
+    margin-top:0px;
+    height:700px;
+}
+
+/* card design ends from here */ 
+
+/* contact me design starts from here */
+.contactMe{
+    padding:0px 30px;
+}
+
+.contact-container .achivements .achiv-content{
+    margin:0px 30px;
+}
+
+/* contact me design ends from here */
+
+/* social icons design starts from here */
+.social-icons{
+    margin-top:25px;
+    padding:0px 20px;
+}
+.social-icons .box{
+    margin:5px 10px;
+}
+/* social icons design ends from here */
+/* footer secition design starts frome here */
+.foot-container{
+    background-color:black;
+    color:gray;
+    padding:6% 5%;
+}
+/* footer secition design ends frome here */
+/* this protfulio website design ends from here alhamdulillah */
+
+
+
+
+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
+
